@@ -1,0 +1,76 @@
+/*My Cascading Style Sheet for Portfolio.html*/
+
+* {
+  box-sizing: border-box;
+}
+
+
+/*Body design*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  ;
+  text-align: center;
+  color: #2d3c49;
+  font-weight: 100;
+}
+
+.author h1 {
+  margin: 0;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.author h3 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+
+/*Portfolio Logo Design*/
+
+.logo img {
+  float: left;
+  border-radius: 10em;
+  display: block;
+  padding-bottom: 10px;
+}
+
+.author {
+  float: right;
+  padding-bottom: 10px;
+}
+
+
+/*Main image design */
+
+.main img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+
+/*Featured project styling */
+
+#grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#grid img {
+  width: 330px;
+  height: 250px;
+  padding-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: green;
+}
+
+a: hover {
+  color: hotpink;
+}
